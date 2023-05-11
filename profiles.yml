@@ -1,0 +1,11 @@
+jaffle_shop:
+  outputs:
+    dev:
+      catalog: dev
+      host: adb-8406481409439422.2.azuredatabricks.net
+      http_path: /sql/1.0/warehouses/63002fdd1532b603
+      schema: jaffle_shop
+      threads: 1
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      type: databricks
+  target: dev
