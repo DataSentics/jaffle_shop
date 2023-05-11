@@ -1,4 +1,20 @@
-## Testing dbt project: `jaffle_shop`
+# Testing dbt project: `jaffle_shop`
+
+## Requirements:
+
+- Databricks Premium plan
+- [E2 platform version on AWS](https://docs.databricks.com/getting-started/overview.html#e2-architecture)
+- [Unity catalog](https://www.databricks.com/product/unity-catalog)
+- [SQL Warehouse](https://www.databricks.com/product/databricks-sql)
+- [Serverless SQL Warehouse](https://docs.databricks.com/serverless-compute/index.html) enabled
+
+## Some base info
+
+Base article [https://docs.getdbt.com/docs/quickstarts/dbt-cloud/databricks](https://docs.getdbt.com/docs/quickstarts/dbt-cloud/databricks)
+
+Spark config options: [https://docs.getdbt.com/reference/resource-configs/spark-configs](https://docs.getdbt.com/reference/resource-configs/spark-configs)
+
+## About the jaffle_shop
 
 `jaffle_shop` is a fictional ecommerce store. This dbt project transforms raw data from an app database into a customers and orders model ready for analytics.
 
