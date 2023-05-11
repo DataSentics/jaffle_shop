@@ -1,0 +1,7 @@
+name: contenta
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip=21.2.*
+  - setuptools=<58
