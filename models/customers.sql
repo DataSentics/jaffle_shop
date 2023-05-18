@@ -5,7 +5,7 @@ with customers as (
         first_name,
         last_name
 
-    from dev.jaffle_shop.jaffle_shop_customers
+    from `jaffle-shop_dev`.default.jaffle_shop_customers
 
 ),
 
@@ -17,7 +17,7 @@ orders as (
         order_date,
         status
 
-    from dev.jaffle_shop.jaffle_shop_orders
+    from `jaffle-shop_dev`.default.jaffle_shop_orders
 
 ),
 
